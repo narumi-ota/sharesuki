@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.feature "SignUps", type: :feature do
-  include ActiveJob::TestHelper
 
   # ユーザーはサインアップに成功する
   scenario "user successfully signs up" do
